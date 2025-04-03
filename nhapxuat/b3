@@ -1,1 +1,15 @@
-
+#include <stdio.h>
+int main(){
+    int a,b;
+    printf("nhap gia tri a:"); scanf("%d", &a);
+    printf("nhap gia tri b:");scanf("%d", &b);
+    printf("tong: %d\n", a+b);
+    printf("hieu: %d\n",a-b);
+    printf("tich: %d\n",a*b);
+    if(b!= 0){
+        printf("thuong: %.2f",(float)a/b);
+    }
+    else {
+        printf("khong co thuong");}
+    return 0 ;
+}
