@@ -1,1 +1,26 @@
-
+#include <stdio.h>
+int main(){
+    float x;
+    printf("DTB: ");
+    scanf("%f", &x);
+    if(x<5){
+        printf("xep loai: Yeu");
+    }
+    else if(5<=x && x<7){
+        printf("xep loai: Trung binh");
+    }
+    else if(7<=x && x<8){
+        printf("xep loai: Kha");
+    }
+    else if(8<=x && x<9){
+        printf("xep loai: Gioi");
+    }
+    else if(9<=x && x<=10){
+        printf("xep loai: Xuat Sac");
+    }
+    else{ 
+        printf("du lieu khong hop le");
+        
+    }
+    return 0;
+}
