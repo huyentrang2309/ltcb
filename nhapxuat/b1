@@ -4,8 +4,8 @@ int main(){
     double x;
     printf("nhap gia tri:");
     scanf("%lf",&x);
-    printf("x*x=%f",pow(x,2));
-    printf("x*x*x=%f",pow(x,3));
-    printf("x*x*x*x=%f",pow(x,4));
+    printf("x^2=%f",pow(x,2));
+    printf("x^3=%f",pow(x,3));
+    printf("x^4=%f",pow(x,4));
     return 0;
 }
