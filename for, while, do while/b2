@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main(){
+    int a;
+    printf ("nhap so nguyen duong: ");
+    scanf("%d",&a);
+    if(a<2){
+        printf("khong la so nguyen to \n");
+    }
+    for(int i=2;i<a;i++){
+        if(a%i==0){
+            printf("khong la so nguyen to \n");
+            break;
+        }
+        if(i==a-1){
+            printf(" la so nguyen to \n");
+            break;
+        }
+    }  
+    return 0;
+    }
