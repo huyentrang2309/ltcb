@@ -1,0 +1,21 @@
+#include <stdio.h>
+int main(){
+    int a,b;
+    printf("nhap so a:");
+    scanf("%d",&a);
+    printf("nhap so b:");
+    scanf("%d",&b);
+    for(int i=1;i<=a*b;i++){
+        if(i%a==0 && i%b==0){
+            printf("BCNN: %d \n",i);
+            break;
+        } 
+    }
+    for(int i=a;i>0;i--){
+        if(a%i==0 && b%i==0){
+            printf("UCLN: %d \n",i);
+            break;
+        }
+    }
+    return 0;
+}
