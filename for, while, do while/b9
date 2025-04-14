@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main(){
+    int n;
+    double b=0;
+    printf("nhap so n: ",n);
+    scanf("%d",&n);
+    for(int i=1;i<=n;i++){
+        int sum=1;
+        for(int a=i;a>0;a--){
+            sum*=a;
+        }
+        b+=1.0/sum;
+    }
+    printf("tong: %.2lf ",b);
+    return 0;
+}
